@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@import "css/modal.css" modal;
+
+.headerUP{
+    border-bottom: 1px solid rgb(180, 178, 178);
+    
+    
+}
+.headerUP_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 250px 0;
+    height: 70px;
+    
+    
+}
+.headerUP_logo{
+    flex: 1 0 auto;
+}
+
+.headerUP_bttns{
+    color: rgb(77, 173, 77);
+}
+
+.button_GS{
+    margin-left: 20px;
+    border: 1px solid rgb(77, 173, 77);
+    border-radius: 4px;
+    padding: 8px 10px;
+}
+
+
+.headerDOWN{
+    display: flex;
+    height: 50px;
+    margin: 0 250px;
+    align-items: center;
+}
+.headerDOWN_txt{
+    color: grey;
+}
+.bttn{
+    margin-left: 40px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+.top_box{
+    margin: 40px 60px 0;
+    width: 700px;
+}
+
+.top_title{
+    font-weight: bold;
+    font-size: 40px;
+} 
+.top_links{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+.top_info{
+    margin-left: 20px;
+    flex: 1 0 auto;
+}
+.infoUP{
+    margin-bottom: 5px;
+}
+.infoUP_follow{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.top_txt{
+    width: 700px;
+    font-size: 22px;
+}
+.top_txt_paragraph{
+    margin: 40px 0;
+}
+
